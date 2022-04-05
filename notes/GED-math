@@ -1,0 +1,269 @@
+Adding/subtracting Integers
+You already know how to add 3 + 4 and so on. But there are many ways to add integers. 
+One way to add integers is by using a number line.
+
+Example
+
+−4+(−3)=?−4+(−3)=?
+figure01
+
+We always start at zero. Our first number is negative four (-4) so we move 4 units 
+to the left. We then have plus negative three (-3) which is the same as subtracting 3 so 
+we move 3 more units to the left. This gives us the value of negative seven, (-7).
+
+−4+(−3)=?−4+(−3)=?.
+
+−4−3=−7−4−3=−7
+We do the same thing if we have a positive integer, but instead we move to the right.
+
+−4+3=?−4+3=?
+−4+3=−1−4+3=−1
+figure02
+
+You can also add integers and variables.
+
+Example
+
+13x+(−2)x=?13x+(−2)x=?
+13x−2x=13x−2x=
+(13−2)x=11x(13−2)x=11x
+When subtracting something from something we wish to find out the difference between the two numbers. 
+When you subtract a negative number from any number the difference is even bigger. 
+The distance from the seabed at a depth of 150ft and an airplane flying at 3000ft altitude at sea level is
+
+3000−(−150)=3000+150=3150ft.3000−(−150)=3000+150=3150ft.
+Thus when we subtract negative numbers, we get:
+
+4−(−3)=4+3=74−(−3)=4+3=7
+Subtracting −3 is the same as adding 3.
+
+If we have a plus sign before the parentheses then we will not change the signs within the parentheses
+
+If we have a minus sign before the parentheses then we the signs within the parentheses will change.
+=======================================================================================================
+
+Multiply Integers
+Multiplying and Dividing Integers
+
+You multiply or divide integers just as you do whole numbers, except you must 
+keep track of the signs. To multiply or divide signed integers, always multiply or 
+divide the absolute values and use these rules to determine the sign of the answer.
+
+When you multiply two integers with the same signs, the result is always 
+positive. Just multiply the absolute values and make the answer positive.
+
+Positive x positive = positive
+Negative x negative = positive
+
+When you multiply two integers with different signs, the result is always 
+negative. Just multiply the absolute values and make the answer negative.
+
+Positive x negative = negative
+Negative x positive = negative
+
+When you divide two integers with the same sign, the result is always positive. 
+Just divide the absolute values and make the answer positive.
+
+Positive ÷ positive = positive
+Negative ÷ negative = positive
+
+When you divide two integers with different signs, the result is always negative. 
+Just divide the absolute values and make the answer negative.
+
+Positive ÷ negative = negative
+Negative ÷ positive = negative
+==================================================================================================
+
+Rules of Exponents
+If you recall from our first lesson, exponents tell us how many times a number is multiplied by itself. 
+Exponential values have two parts to them. The first part is the base which is the actually number being 
+multiplied over and over again. The second part is the exponent which represents the amount of times the base
+ will be multiplied by itself. The exponent is always a physically smaller number that is located in the upper 
+ right from the base. This is generally what exponential numbers look like: ​Be​ where ​B​ is the base and ​e​ is 
+ the exponent. This is pronounced B to the power of e or B to the e.
+
+Here is the general form of exponential numbers:
+
+Be=B1×B2×B3×…×Be
+For instance, if B was 3 and e was 5, it would look like this: ​35=31×32×33×34×35​.
+
+Some basic exponent rules we should already know. ​B2​ is also known as B squared. 
+The reason behind the special name is because normally the area of a rectangle is length times width, 
+however the area of a square is more like length times length since all sides are the same. Therefore, 
+if the length of one side of a square is B, then ​B×B​ or ​B2​ would be the area of it, hence the name ‘squared’.
+
+Image result for area of a square In this example of a square, the area is ​5×5=5 squared (52)​.
+
+​B3​ is also known as B cubed. The reason behind this special name is for a similar reason to the square version. 
+The volume of a rectangular prism is length times width times height, however the volume of a cube is length times 
+length times length since all sides are the same. Therefore, if the length of one side of a cube is B, 
+then ​B×B×B​ or ​B3​ would be the volume of it, hence the name ‘cubed’.
+
+Image result for volume of a cube In this example of a cube, the volume is ​5×5×5=5 cubed (53)​.
+
+Another basic rule to really remember is that technically all numbers have an exponent be default. 
+If the number is not being multiplied and is left as is, it will have an exponent of 1. Exponents of 1 simply mean there
+ is only 1 of that number and there is nothing else to multiply it to. However, it is redundant to always right a 1
+  above all numbers that don’t have a real exponent, so we leave the 1 off. Remember that any number with no 
+  exponent is implicitly understood to have an exponent of 1.
+
+The next rules are 6 advanced rules of exponents that we use often in algebra to make exponents easier to work 
+with and solve.
+
+Product Rule
+The first is the product rule. This rule is used only when multiplying two exponential 
+numbers that have the same base. Below is the general form of the product rule.
+
+Bx⋅By=Bx+y
+The rule essentially states that when you multiply two exponential numbers with the same base, 
+no matter what that base may be, it is equal to that same base to the power of both exponents added 
+together. Don’t forget that part. Under this condition, the exponents are added together, not
+ multiplied. Below is a real example of this.
+
+52⋅53=52+3=55
+The way this rule works is displayed below.
+
+(5×5)×(5×5×5)=5×5×5×5×525×125=3,1253,125=3,125
+This makes sense considering multiplication is commutative. That allows 
+you to string different multiplications together into one large multiplication, which is essentially 
+what you are doing when you add the exponents. I even showed the calculations so you can see that the results 
+on both sides are the same, and thus the product rule holds true. You can even check the math for yourself on 
+your calculator if you want.
+
+Quotient Rule
+The second rule is the quotient rule. This rule is used only when dividing two exponential numbers
+ that have the same base. Below is the general form of the quotient rule.
+
+ByBx=By−x
+This honestly should not come as a surprise. This rule is very similar to the product rule except
+ this rule is the opposite. Since we add the exponents when the two exponential numbers are multiplied, then we subtract the exponents when they are divided. This comes from the fact that division is the opposite of multiplication. This rule also has the same restrictions as the product rule in that the two bases must be the same otherwise the rules won’t work. Below is a real example of this rule.
+
+5654=56−4=52
+In the product rule, multiplication (and addition) are commutative. This means that order of
+ the exponents in the addition does not matter. You will get the same result either way. This is not 
+ true in the quotient rule. Division and subtraction are not commutative, meaning that order indeed matters
+  in the final result. When subtracting the exponents, the top exponent (or the first one) is the first exponent 
+  in the subtraction, while the bottom exponent (or the second one) is the second exponent in the subtraction. 
+  This will never change. It was no coincidence that the 6 came first and the 4 went second in the above example.
+
+The way this rule works is displayed below.
+
+5×5×5×5×5×55×5×5×5=5×5
+In division, we know that if two of the same number gets divided they cancel out and become 1.
+ Well that is exactly what is happening in the above depiction. When you have values on the top and bottom
+  being multiplied only, you can cancel out any values that are are the same in the top and bottom. So, each five in the top pairs off with each five in the bottom and there are two fives in the top that are remaining with no five in the bottom to pair with. Each pair then cancels each other out, which completely destroys the denominator and leaves the two remaining fives behind. The fives highlighted in red are the ones that cancel. This is essentially what happens when you subtract the exponents in the quotient rule. This cancelling concept is also an important concept to grasp, since this is not the last time we will see it.
+
+Power Rule
+The third rule is the power rule. This rule is when you are taking the power of another
+ power. As odd as it sounds, it is possible to have an exponent on something with an exponent. 
+ Below is the general form of the power rule.
+
+(Bx)y=Bx⋅y
+This rule states that when you have an exponential with a power that is nested within another power, 
+it is equivalent to you multiplying the powers together. This rule is used several times in 
+algebra so it is really good to know. Below is a real example of this rule.
+
+(52)3=52⋅3=56
+Below shows what really happening which is why this rule works.
+
+(52)3=(5×5)3=(5×5)×(5×5)×(5×5)=5×5×5×5×5×5
+As you can see, the 5 inside has to be multiplied twice because it is being squared. 
+However, due to the cube that is surrounding the 5 times 5, that whole 5 times 5 is 
+then multiplied 3 more times. When combined, that gives us 6 fives all being multiplied. 
+This is why the rule states that the equivalent is simply to multiply the powers. Not only that, 
+but if multiple numbers being multiplied were nested inside an exponent, then that exponent is distributed 
+to every number in the parenthesis. This is another important concept for algebra. This is shown in the example below.
+
+(34⋅75)3=34⋅3⋅75⋅3=312⋅715
+Zero Exponent Rule
+The fourth rule is known as the zero exponent rule. This rule you might already know of. 
+It is the easiest rule of the six. The general form of the zero exponent rule is below.
+
+B0=1
+That is it. The rule is very simple and straight-forward. If any base has an exponent of zero, 
+the whole exponential number is equivalent to 1. This is pretty interesting of a rule because the key 
+thing is that the base could be anything. It could be ten, one hundred, one thousand, or even one million. 
+Does not matter because, if it has an exponent of zero, then the whole thing becomes 1. Below is a real example
+ of this rule in action when combined with the quotient rule!
+
+12081208=1208−8=1200=1
+There are several ways we can think about this rule that proves it is true. One way is to think about 3 coins: 
+a penny, a nickle, and a quarter. One real concept with exponents is using the idea of these 3 coins. If I 
+have ​32​, which is essentially asking us: how many ways can we arrange 3 coins so that at most 2 of them are on the 
+table? Well there would be 9 possibilities, 3 times 3. The possibilities are: penny, nickle, quarter, penny and 
+nickle, penny and quarter, nickle and penny, nickle and quarter, quarter and penny, and quarter and nickle. 
+However, what if they ask us for ​30​ which is: how many ways can we arrange 3 coins so that 0 of them are on the 
+table? That answer is 1, because there is only 1 possibility, don’t put any coins on the table to begin with. 
+Another way to of course look at it is using the quotient rule from before. If you have the same amount of a 
+number on the top and bottom of a fraction, then every single number on the top will cancel with every single 
+number on the bottom. This leaves you with 0 numbers, which is what happened in our above example. Don’t forget 
+though, what is the result of a division where the top and bottom are exactly the same? That answer is of
+ course 1. This also proves that any number to an exponent of zero is 1.
+
+5353=5×5×55×5×553−3=5×5×55×5×550=11=1
+Negative Exponent Rule
+The fifth rule is also known as the negative exponent rule. In reality, there is no unique value that is 
+represented by an exponential number with a negative exponent. If you think about it, exponents represent 
+how many times a number is multiplied to itself, so how can you possibly do that negative times? 
+The misconception is that a negative exponent makes your answer negative or adds a negative onto each 
+repeating number and they are both incorrect. Negative exponents are just an alternative way of writing 
+an exponential number that belongs on the opposite side of the fraction bar. This rule states that you 
+can move an exponential number to the opposite side of a fraction bar, and upon doing so the sign of the 
+exponent also flips. This works both ways. A positive exponent moved to the opposite side flips it into a 
+negative exponent and a negative exponent moved to the opposite side flips it into a positive exponent. However,
+ because you can’t really solve for the value of a number with a negative exponent, you will mostly be flipping 
+ them to make the exponent positive to make it solvable. Below is the general form of the negative exponent rule.
+
+B−3=B−31=1B31B−5=B51=B5
+This form shows both scenarios. This proves that it does not matter which side of the fraction bar your 
+number was on, changing the sign of the exponent can simply be done by moving the number from one side to the other.
+ Another basic concept for you to understand is that denominator of 1. Technically, every number can be represented
+  as a fraction, even whole numbers. All numbers that are not already fractions have denominators of 1 by default and 
+  you can write it that way if needed. Why? Well, because fractions are the same as division and anything divided by 
+  1 is itself. So, including or removing the 1 on the bottom won’t change the value at all. So if we take the number 
+  5, for instance, it is immediately understood that ​5=51​. We will go into more detail on fractions in a later lesson.
+   Just know that this is one of those redundant things, just like an exponent of 1, that we don’t often like to write
+    because it is implicitly understood. This is useful for this rule and any later lesson that involves flipping the 
+    top and bottom of fractions. Below is a real example of this rule.
+
+10−5=1105=1100,000
+In many problems, they will ask you for the most simplified answer. This means they can put all three versions in the
+ above example as answer choices. While they are all technically equivalent, the most simplified answer is the last
+  possible version that you can no long do anything else with. The ​10−5​ is the least simplified of the three. More 
+  simplified than that is the ​1105​. The most simplified one here is when you solve the 10 to the 5th on the bottom 
+  to get ​1100,000​. If the first one is the only answer choice of the three, then it is the answer. Even if the first 
+  one is a choice, the second one is the final answer if it is a choice too, but the last one isn’t. Since the last 
+  one is the most simplified, it is the answer if it is a choice, even if the other two are also choices. This is 
+  what it means to select the most simplified answer choice. Below is another example of this rule when combined 
+  with other rules.
+
+122123=12−1=112
+The quotient rule combined with the negative exponent rule is an important concept that helps us 
+get to the most simplified form. This concept should be emphasized when studying this rule.
+
+Rational Exponent Rule
+The sixth and final rule is known as the rational exponent rule. The term ‘rational’ comes from the 
+word ratio, which is a comparison between two numbers. In a way, a ratio is just another word for 
+fraction. So when you see the word rational on anything, it will probably have something to do with 
+ractions. When it comes to this rule, you would be right. Rational exponents are exponents as fractions. This rule is really important to study and it essentially states what exponential numbers with rational exponents are equivalent to. Just like with the last rule, there are more simplified forms that are considered the preferred. However, unlike the last rule, each form has different uses and one form maybe more convenient than another depending on the given situation. Below is the general form of the rational exponent rule.
+
+Bxy=Bx−−−√y
+You may not be that familiar with roots yet, which are denoted by the radical sign. That is okay. We will
+ get to roots in a future lesson. Roots are just the opposite of exponents and solving them will require a
+  calculator most of the time. While exponents are how many times a number is multiplied by itself, the answer
+   to a root is the number that was multiplied ​y​ number of times to get what is inside the root. You have squar
+   e roots which gives you the number that was multiplied twice to get the inside of the root. An example of this 
+   is ​25−−√=5​ because 5 times 5 is 25. You also have cube roots which finds the number that had to be multiplied
+    three times. You also have the 4th root, 5th root, 6th root, and so on. The little number to the left of the 
+    radical sign identifies the type of root we are talking about. Square roots may have a 2 next to it or it may
+     have no number at all. Any roots without that little number is understood to be a square root by default. Now 
+     that you know more about roots, this rule is telling us that rational exponents are the same as roots. More 
+     specifically, the denominator of the exponent represents the type of root that surrounds the base. 
+     A denominator of 2 means square root, a denominator of 3 means cube root, a denominator of 4 means 
+     4th root, and so on. The numerator of the exponent acts as an additional power applied to the base. 
+     Sometimes you will get something that looks like this: ​523=52−−√3=25−−√3​. That 2 became a power on 
+     the 5 when the 3 carried over to become a cube root over the 5 squared. Most of the time though, 
+     the numerator will be 1, meaning the power is 1 which keeps the base the same, so there is no additional 
+     power on the base. Below is a real example of what you might see from this rule.
+
+2512=25−−√=5

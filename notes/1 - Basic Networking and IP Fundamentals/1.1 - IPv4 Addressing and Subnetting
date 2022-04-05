@@ -1,0 +1,227 @@
+
+---
+binary and decimal conversion:
+
+- only tow numbers you need to remember = 8, 128
+- 8 places:
+    1 1 1 1 1 1 1 1
+   128 64 32 16 8 4 2 1
+- to convert binary to decimal, add up all the place values for each bit that is set to 1.
+- 128 + 64 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255
+
+- 1 1 1 1 1 0 0 0
+  128 + 64 + 32 + 16 + 8 = 248
+
+- 1 1 0 0 1 1 0 1
+  128 + 64 + 8 + 4 + 1 =205
+
+- convert 139 to binary:
+what is largest place value less than or equal to 139? = 128
+
+- subtract 128 from 139 
+  139 - 128 = 11
+what is the largest place value less than or equal to 11? = 8
+
+- subtract 8 from 11
+  11 - 8 = 3
+what is the largest place value less than or equal to 3? = 2
+
+- subtract 2 from 3
+  3 - 2 = 1
+what is the largest place value less than or equal to 1? =  1
+
+- 1 0 0 0 1 0 1 1
+  128 + 8 + 2 + 1 = 139
+
+
+subnetting:
+
+customer request:
+efficently subnet the following networks to accommodate the given number of hosts. use the lowest numbered subnets possible.
+
+- 2 hosts-10.0.12.0/24
+- 6 hosts-10.14.0/24, 10.0.23.0/24, 10.0.36.0/24, 10.0.36.0/24, 10.0.45.0/24, 10.0.56.0/24
+- 14 hosts-10.0.18.0/24, 10.0.27.0/24, 10.0.34.0/24
+
+- subnetting:
+  subnetting implies extending the mask to the right.
+  the number of mask bits wil be greater than 24.
+
+- add 1 to the number of hosts
+- convert the result to binary
+- add the result to the original number of bits
+- count the number oh high order zeros
+
+subnet: 10.0.12.0/24
+- number of hosts (2) + 1 = 3
+write 3 in binary
+  00000011
+
+count the zeros to the left of the leftmost 1
+add the result (6) to the original number of bits (24)
+
+Answer: 10.0.12.0/30
+
+subnet: 10.0.14.0/24
+- number of hosts (6) + 1 = 7
+write 7 in binary
+  00000111
+
+conut the zeros to the left of the leftmost 1
+add the result (5) to the origignal number of bits (24)
+
+Answer: 10.0.14.0/29
+
+subnet: 10.0.18.0/24
+ - number of hosts (14) + 1 = 15
+write 15 in binary
+  00001111
+
+count the zeros to the left of the leftmost 1
+add the result (4) to the original number of bits (24)
+
+Answer: 10.0.18.0/24 
+
+
+converting slash and dotted decimal notation:
+
+slash notation:
+- example: 10.0.0.0/24
+also called bitcount notation
+
+customer request:
+- convert 10.0.0.0 255.255.192.0 to slash notation
+write the mask out in binary and count the number of bits that are set to 1
+
+10.0.0.0 255.255.192.0:
+
+first two octets of the mask are 8 bits each (11111111 = 255)
+- 8 + 8 = 16
+
+write out the third octet (192) in binary
+- 11000000
+
+count the number of binary 1's in the third octet
+add the result (2) to 16
+- 2 + 16 = 18
+
+The answer is 10.0.0.0/18
+
+customer request:
+- address all links according to the layer 3 ipv4 topology diagram.
+
+10.0.18.0/28
+
+write out 28 binary 1's grouped into octets
+- 11111111 . 11111111 . 11111111. 11110000
+convert each octet to decimal
+- 255 . 255 . 255 . 240
+
+The answer is 10.0.18.0 255.255.255.240
+
+Converting slash to dotted decimal notation:
+- /28 255.255.255.240
+- /29 255.255.255.248
+- /30 255.255.255.252
+
+
+Wildcards:
+
+customer request:
+- calculate wildcard masks for all links
+
+A wildcard mask is simply a binary inversion of the sunet mask.
+Wildcard masks are used with access lists and dynamic routing protocols.
+
+subnet mask V.S wildcard 
+- 255.255.255.128 - 0.0.0.127
+
+Calculating a wildcard mask for 255.255.255.240
+Subtract each octet from 255
+Calculate the wildcard mask for 255.255.255.240
+
+255.255.255.255
+-255.255.255.240
+-----------------
+0.0.0.15
+
+
+Lab: Creating Loopback Interfaces
+
+Customer Request:
+Assingn 1.1.1.1/32 to the loopback 0 interface on R1
+Assingn 4.4.4.4/32 to the loopback 0 interface on R4
+
+Loopback interface:
+A virtual interface that is independent of any physical interfaces
+
+- Always remain up unless administratively shut down
+- Can be assigned a routable ip address
+- Can participate in dynamic routing protocols
+
+Lab: Configuring and Verifying RIPv2
+
+Customer Request:
+Enable RIPv2 between R1 and R4
+
+Lab: Route Summarization
+
+Auto summarization 
+Advertises classful networks instead of individual subnets
+
+Customer Request:
+
+Ensure the loopback0 interfaces on R1 and R4 are advertised 
+via RIPv2 using the original subnet masks.
+
+=============================
+
+Lab: Distribute Lists
+
+Distibute lists control which routes are sent or 
+received through a particular interface.
+
+Configuring a distribute list
+==============================
+intterface
+direction (in or out)
+access list
+
+Customer Request:
+
+configure a distribute list to ensure that R4 does 
+not use R1 to reach the 10.0.18.0/28 network. 
+Do not make any configuration changes on R4.
+
+cisco express forwarding
+
+forwarding information base (FIB)
+built based on the ip routing table
+contains the ip network prefix, next hop and outgoing interface
+
+adjacency table 
+built from information gleaned from ARP or ND
+contains the outgoing interface, next hop layer 3
+address, and layer 2 header
+
+CEF Example
+R1 needs to forward a packet to 4.4.4.4
+
+4.4.4.4/32
+nexthop 10.0.14.4 GigabitEthernet0/1
+
+CEF Example
+R1 finds the corresponding entry in the adjacecy table, appends the pre-GigabitEthernet0/1 link
+
+Fast Switching
+show ip cacche
+Uses ip routing table for initial route lookups and stores the result in a cache.
+
+Process switching 
+similar to fast switching but does not cache lookup results
+causes high CPU utilization
+each packet triggers a separate lookup
+
+
+
+
