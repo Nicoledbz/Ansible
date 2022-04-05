@@ -1,0 +1,65 @@
+
+understanding TCP
+
+physical connections
+- packts arrive in the order they were sent
+- reliable
+
+TCP is connection-oriented
+- simulates a physical connection 
+- sequence numbers and acknowledgments
+provide reliabiliy and order
+
+How does TCP ensure a logical
+point-to-point connection?
+- sequence numbers 
+- reassembly ensures that the packts are kept in
+ original order
+
+ SYN = synchronize the sequence numbers.
+ ACK = acknowledges that the received packet
+ is valid
+
+ TCP retransmission
+ - if the sender does not receive an ACK,it will retransmit the packet
+
+ TCP windowing
+ - regulates the flow of packets to reduce packet loss
+
+ TCP windowing and window scaling 
+
+ TCP windowing 
+ - host can't process packet as quickly as it receives them
+ - unprocessed packet are stored in a receive buffer
+ - when receive buffer is full, new packet dropped
+
+  TCP windowing synchronize
+  the amount of bytes ahost will send before it stop and waits for 
+  an ACK from the receiver
+
+   TCP windowing scaling(RFC 1323)
+   - multiplies the TCP window synchronize
+   - maximum effective window size is 2^30 bytes or about
+   1 gigabyte
+
+   TCP global synchronization
+
+   TCP global synchronization
+   - occurs when multiple TCP connections drop packets
+   - network failure
+   - packets getting tail-dropped
+
+   TCP connections start with each host sending a small
+   amount of data at a time.
+
+   maximum segment size(MSS)
+   the largest chunk of data that can be sent in a single
+   TCP packet.
+
+   TCP MSS
+   - MSS=MTU-TCP/IP headers
+   - ethernet MTU = 1500 bytes
+   - TCP/IP headers = 40 bytes
+   - MSS= 1500-40 =1460 bytes
+
+   
